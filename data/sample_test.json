@@ -1,0 +1,42 @@
+[
+  {
+    "text": "The atomic number of hydrogen is 1.",
+    "hallucination_label": 0
+  },
+  {
+    "text": "The Pacific Ocean is the largest ocean on Earth.",
+    "hallucination_label": 0
+  },
+  {
+    "text": "The human skeleton has 206 bones.",
+    "hallucination_label": 0
+  },
+  {
+    "text": "The Yeti is a real creature that lives in the Himalayas.",
+    "hallucination_label": 1
+  },
+  {
+    "text": "The speed of sound is approximately 343 meters per second in air.",
+    "hallucination_label": 0
+  },
+  {
+    "text": "The Great Sphinx of Giza has the body of a lion and the head of a human.",
+    "hallucination_label": 0
+  },
+  {
+    "text": "The human tongue can taste only four basic flavors.",
+    "hallucination_label": 1
+  },
+  {
+    "text": "The Milky Way galaxy contains billions of stars.",
+    "hallucination_label": 0
+  },
+  {
+    "text": "The Bigfoot is a real primate species that has eluded scientific discovery.",
+    "hallucination_label": 1
+  },
+  {
+    "text": "The human brain uses approximately 20% of the body's total energy.",
+    "hallucination_label": 0
+  }
+]

@@ -1,0 +1,68 @@
+# Default configuration for GRPO hallucination mitigation
+
+# Model configuration
+model:
+  name: "gpt2"
+  max_length: 512
+  device: "cuda"
+
+# GRPO configuration
+grpo:
+  learning_rate: 1e-5
+  batch_size: 8
+  num_groups: 4
+  group_size: 2
+  beta: 0.1  # KL regularization coefficient
+  gamma: 0.5  # Mechanistic signal weight
+  num_epochs: 10
+
+# Mechanistic signal configuration
+mechanistic:
+  attention_entropy_weight: 0.25
+  activation_magnitude_weight: 0.25
+  confidence_variance_weight: 0.25
+  layer_consistency_weight: 0.25
+
+# Hallucination detection configuration
+detection:
+  method: "threshold_based"  # threshold_based, ml_based, ensemble
+  threshold: 0.5
+  use_ml_detector: false
+
+# Group selection configuration
+grouping:
+  strategy: "hallucination_based"  # hallucination_based, signal_clustering, random
+
+# Training configuration
+training:
+  gradient_accumulation_steps: 1
+  warmup_steps: 100
+  save_steps: 500
+  eval_steps: 500
+  logging_steps: 100
+  max_grad_norm: 1.0
+
+# Evaluation configuration
+evaluation:
+  metrics: ["precision", "recall", "f1", "roc_auc", "pr_auc"]
+  threshold: 0.5
+
+# Data configuration
+data:
+  train_file: "data/train.json"
+  val_file: "data/val.json"
+  test_file: "data/test.json"
+  max_samples: null  # null for all samples
+
+# Logging configuration
+logging:
+  level: "INFO"
+  use_wandb: false
+  wandb_project: "grpo-hallucination-mitigation"
+  use_tensorboard: true
+
+# Output configuration
+output:
+  model_dir: "models"
+  results_dir: "results"
+  log_dir: "logs"

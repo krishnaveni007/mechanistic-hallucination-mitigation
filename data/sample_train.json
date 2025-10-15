@@ -1,0 +1,82 @@
+[
+  {
+    "text": "The capital of France is Paris.",
+    "hallucination_label": 0
+  },
+  {
+    "text": "Water boils at 100 degrees Celsius at sea level.",
+    "hallucination_label": 0
+  },
+  {
+    "text": "The sun is a star located at the center of our solar system.",
+    "hallucination_label": 0
+  },
+  {
+    "text": "Humans have 23 pairs of chromosomes.",
+    "hallucination_label": 0
+  },
+  {
+    "text": "The Great Wall of China is visible from space with the naked eye.",
+    "hallucination_label": 1
+  },
+  {
+    "text": "Goldfish have a memory span of only 3 seconds.",
+    "hallucination_label": 1
+  },
+  {
+    "text": "The moon is made of cheese.",
+    "hallucination_label": 1
+  },
+  {
+    "text": "Sharks are mammals.",
+    "hallucination_label": 1
+  },
+  {
+    "text": "The Earth is approximately 4.5 billion years old.",
+    "hallucination_label": 0
+  },
+  {
+    "text": "Lightning never strikes the same place twice.",
+    "hallucination_label": 1
+  },
+  {
+    "text": "The human brain contains approximately 86 billion neurons.",
+    "hallucination_label": 0
+  },
+  {
+    "text": "Bats are blind.",
+    "hallucination_label": 1
+  },
+  {
+    "text": "The speed of light in a vacuum is approximately 299,792,458 meters per second.",
+    "hallucination_label": 0
+  },
+  {
+    "text": "The Great Pyramid of Giza was built by aliens.",
+    "hallucination_label": 1
+  },
+  {
+    "text": "Oxygen is essential for human respiration.",
+    "hallucination_label": 0
+  },
+  {
+    "text": "The Amazon rainforest produces 20% of the world's oxygen.",
+    "hallucination_label": 1
+  },
+  {
+    "text": "DNA stands for deoxyribonucleic acid.",
+    "hallucination_label": 0
+  },
+  {
+    "text": "The human heart has four chambers.",
+    "hallucination_label": 0
+  },
+  {
+    "text": "Mount Everest is the tallest mountain on Earth.",
+    "hallucination_label": 0
+  },
+  {
+    "text": "The Bermuda Triangle causes ships and planes to disappear mysteriously.",
+    "hallucination_label": 1
+  }
+]
