@@ -23,7 +23,7 @@ This project implements a novel approach to mitigating hallucinations in large l
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/mechanistic-hallucination-mitigation.git
+git clone https://github.com/krishnaveni-u/mechanistic-hallucination-mitigation.git
 cd mechanistic-hallucination-mitigation
 
 # Install dependencies
@@ -200,38 +200,7 @@ This framework enables research into:
 - **Evaluation Methods**: Developing better hallucination detection metrics
 - **Model Architectures**: Designing models with built-in hallucination resistance
 
-## Contributing
-
-We welcome contributions! Please see our contributing guidelines for details on:
-
-- Code style and standards
-- Testing requirements
-- Documentation standards
-- Pull request process
-
-## Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@article{mechanistic-hallucination-mitigation,
-  title={Mitigating LLM Hallucinations by Leveraging Mechanistic Signals in GRPO Pipelines},
-  author={Research Team},
-  journal={arXiv preprint},
-  year={2024}
-}
-```
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Transformers library by Hugging Face
-- PyTorch framework
-- The broader AI research community
-
-## Contact
-
-For questions or support, please open an issue or contact the research team.
