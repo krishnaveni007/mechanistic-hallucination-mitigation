@@ -89,3 +89,7 @@ data/*.json
 # Temporary files
 *.tmp
 *.temp
+
+bin/
+slurm/
+wandb/
